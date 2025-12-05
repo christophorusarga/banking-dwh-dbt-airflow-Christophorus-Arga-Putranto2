@@ -1,0 +1,78 @@
+version: 2
+
+models:
+  - name: stg_accounts
+    description: "Staging model for raw financial account data. Performs basic cleaning (e.g., lowercasing status/type)."
+    columns:
+      - name: account_id
+        description: "The unique identifier for the financial account."
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "The identifier of the customer who owns the account."
+        tests:
+          - not_null
+      - name: account_number
+        description: "The unique bank account number."
+        tests:
+          - not_null
+      - name: account_type
+        description: "Type of account (e.g., savings, checking)."
+      - name: account_status
+        description: "Current operational status (e.g., active, closed)."
+      - name: open_date
+        description: "Date the account was opened."
+      - name: current_balance
+        description: "Current balance in the account's currency."
+
+  - name: stg_customers
+    description: "Staging model for raw customer data. Includes name concatenation and email standardization."
+    columns:
+      - name: customer_id
+        description: "The unique identifier for the customer."
+        tests:
+          - unique
+          - not_null
+      - name: full_name
+        description: "Concatenated first and last names."
+        tests:
+          - not_null
+      - name: email
+        description: "Customer's standardized (lowercase) email address."
+        tests:
+          - not_null
+          - unique
+      - name: date_of_birth
+        description: "Customer's date of birth."
+      - name: registration_date
+        description: "Date the customer registered."
+      - name: risk_rating
+        description: "Assigned customer risk rating."
+
+  - name: stg_transactions
+    description: "Staging model for raw transactional data. Combines separate date and time columns."
+    columns:
+      - name: transaction_id
+        description: "The unique identifier for the transaction."
+        tests:
+          - unique
+          - not_null
+      - name: account_id
+        description: "The account associated with the transaction."
+        tests:
+          - not_null
+      - name: transaction_timestamp
+        description: "Combined date and time of the transaction."
+        tests:
+          - not_null
+      - name: transaction_type
+        description: "Type of transaction (e.g., debit, credit, deposit)."
+      - name: amount
+        description: "The amount of the transaction."
+        tests:
+          - not_null
+      - name: merchant_name
+        description: "The name of the merchant involved, if applicable."
+      - name: status
+        description: "The final status of the transaction (e.g., completed, pending)."

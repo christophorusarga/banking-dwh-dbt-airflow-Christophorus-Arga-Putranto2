@@ -1,0 +1,218 @@
+[0m17:13:03.737365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218A377F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218A4296C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218A1021450>]}
+
+
+============================== 17:13:03.742725 | b9891f53-5f89-432a-becb-d78201d269dc ==============================
+[0m17:13:03.742725 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:13:03.743503 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'no_print': 'None', 'printer_width': '80', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'use_colors': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init banking_dw', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m17:13:03.864374 [debug] [MainThread]: Starter project path: C:\ProgramData\anaconda3\Lib\site-packages\dbt\include\starter_project
+[0m17:13:03.944199 [info ] [MainThread]: 
+Your new dbt project "banking_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:13:03.944933 [info ] [MainThread]: Setting up your profile.
+[0m17:13:10.338212 [debug] [MainThread]: Command `dbt init` succeeded at 17:13:10.337938 after 6.81 seconds
+[0m17:13:10.338816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218A5917490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218A5ACC830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218A173E8B0>]}
+[0m17:13:10.339333 [debug] [MainThread]: Flushing usage events
+[0m17:13:11.463693 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:27:44.106365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002240DE5F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002240E976C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002240B701450>]}
+
+
+============================== 17:27:44.111922 | 76c33cf0-b0f5-49c4-b6a2-ef3df12dc942 ==============================
+[0m17:27:44.111922 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:27:44.112673 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'no_print': 'None', 'use_colors': 'True', 'target_path': 'None', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'printer_width': '80', 'write_json': 'True'}
+[0m17:27:44.141949 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:27:44.142555 [info ] [MainThread]: python version: 3.13.5
+[0m17:27:44.143172 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:27:44.143718 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:27:44.294764 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:27:44.295428 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:27:44.296116 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:27:44.296691 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:27:44.297946 [debug] [MainThread]: Command `dbt debug` failed at 17:27:44.297794 after 0.37 seconds
+[0m17:27:44.298346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022410253100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002241025A7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002240D702250>]}
+[0m17:27:44.298774 [debug] [MainThread]: Flushing usage events
+[0m17:27:45.413381 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:28:51.415770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6CAF5F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6CBA76C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6C8801450>]}
+
+
+============================== 17:28:51.421006 | 67098ea7-c933-40ee-b66b-e3e9413a497c ==============================
+[0m17:28:51.421006 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:28:51.421774 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'invocation_command': 'dbt debug', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m17:28:51.447638 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:28:51.448243 [info ] [MainThread]: python version: 3.13.5
+[0m17:28:51.448764 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:28:51.449235 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:28:51.594540 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:28:51.595171 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:28:51.595978 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:28:51.596649 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:28:51.598299 [debug] [MainThread]: Command `dbt debug` failed at 17:28:51.598021 after 0.34 seconds
+[0m17:28:51.598797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6CD2D3100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6CD2DA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6CA802250>]}
+[0m17:28:51.599280 [debug] [MainThread]: Flushing usage events
+[0m17:28:52.676403 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:29:57.379144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E6AE0F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E6B926C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E686A1450>]}
+
+
+============================== 17:29:57.384391 | 67ff7331-a8b4-46df-b635-a6df9334223b ==============================
+[0m17:29:57.384391 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:29:57.385145 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'log_format': 'default', 'no_print': 'None', 'target_path': 'None', 'use_colors': 'True', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m17:29:57.411555 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:29:57.412169 [info ] [MainThread]: python version: 3.13.5
+[0m17:29:57.412773 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:29:57.413262 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:29:57.557409 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:29:57.558050 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:29:57.558648 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:29:57.559276 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:29:57.560545 [debug] [MainThread]: Command `dbt debug` failed at 17:29:57.560371 after 0.33 seconds
+[0m17:29:57.560953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E6D173100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E6D17A7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E6A6A2250>]}
+[0m17:29:57.561378 [debug] [MainThread]: Flushing usage events
+[0m17:29:58.680120 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:30:58.793381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E64521F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E645D36C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E642AC1450>]}
+
+
+============================== 17:30:58.798565 | dd72430f-50d7-407c-9f99-cd3f84297ed0 ==============================
+[0m17:30:58.798565 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:30:58.799334 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'no_print': 'None', 'write_json': 'True', 'invocation_command': 'dbt debug', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m17:30:58.825541 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:30:58.826178 [info ] [MainThread]: python version: 3.13.5
+[0m17:30:58.826859 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:30:58.827368 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:30:58.968596 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:30:58.969231 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:30:58.969942 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:30:58.970637 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:30:58.971784 [debug] [MainThread]: Command `dbt debug` failed at 17:30:58.971625 after 0.34 seconds
+[0m17:30:58.972187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E647593100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E64759A7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E644AC2250>]}
+[0m17:30:58.972630 [debug] [MainThread]: Flushing usage events
+[0m17:31:00.030770 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:32:24.783561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D9EF0F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D9FA26C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D9C7B1450>]}
+
+
+============================== 17:32:24.788718 | de947a0e-b4ad-40cd-ba17-73f7f51347d6 ==============================
+[0m17:32:24.788718 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:32:24.789480 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'invocation_command': 'dbt debug', 'printer_width': '80', 'log_format': 'default', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m17:32:24.815603 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:32:24.816186 [info ] [MainThread]: python version: 3.13.5
+[0m17:32:24.816653 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:32:24.817110 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:32:24.961081 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:32:24.961715 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:32:24.962376 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:32:24.963481 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:32:24.965135 [debug] [MainThread]: Command `dbt debug` failed at 17:32:24.964959 after 0.34 seconds
+[0m17:32:24.965608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA1363100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA136A7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D9E7B2250>]}
+[0m17:32:24.966171 [debug] [MainThread]: Flushing usage events
+[0m17:32:26.095538 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:32:34.127321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F360EB230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F36C06C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F33991450>]}
+
+
+============================== 17:32:34.132490 | 801ef16a-d4fc-4709-ab1a-a0a7291dbabd ==============================
+[0m17:32:34.132490 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:32:34.133263 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'target_path': 'None', 'no_print': 'None', 'invocation_command': 'dbt seed', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m17:32:34.133803 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:32:34.135006 [debug] [MainThread]: Command `dbt seed` failed at 17:32:34.134851 after 0.16 seconds
+[0m17:32:34.135447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F38289940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F382D8950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F38259AE0>]}
+[0m17:32:34.135882 [debug] [MainThread]: Flushing usage events
+[0m17:32:35.218423 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:34:06.126050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F5E08B230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F5EBA6C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F5B921450>]}
+
+
+============================== 17:34:06.131233 | 8d8275a7-8f41-4f1d-b1ec-84a57b80f528 ==============================
+[0m17:34:06.131233 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:34:06.132044 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'printer_width': '80', 'target_path': 'None', 'no_print': 'None', 'invocation_command': 'dbt debug', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m17:34:06.158894 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:34:06.159510 [info ] [MainThread]: python version: 3.13.5
+[0m17:34:06.160045 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:34:06.160605 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:34:06.307576 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:34:06.308224 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:34:06.308708 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:34:06.309198 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:34:06.310319 [debug] [MainThread]: Command `dbt debug` failed at 17:34:06.310163 after 0.35 seconds
+[0m17:34:06.310726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F60403100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F6040A7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F5D922250>]}
+[0m17:34:06.311254 [debug] [MainThread]: Flushing usage events
+[0m17:34:07.465640 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:36:30.741937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020493C7F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020494796C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020491521450>]}
+
+
+============================== 17:36:30.747666 | 9c3fcf3a-6aae-4d3b-9ffb-167e107134a2 ==============================
+[0m17:36:30.747666 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:36:30.748473 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'use_colors': 'True', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'printer_width': '80', 'target_path': 'None'}
+[0m17:36:30.774994 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:36:30.775630 [info ] [MainThread]: python version: 3.13.5
+[0m17:36:30.776213 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:36:30.776661 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:36:30.925727 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:36:30.926308 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:36:30.926863 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:36:30.927373 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:36:30.928611 [debug] [MainThread]: Command `dbt debug` failed at 17:36:30.928442 after 0.35 seconds
+[0m17:36:30.929068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000204960A3100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000204960AA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020493522250>]}
+[0m17:36:30.929539 [debug] [MainThread]: Flushing usage events
+[0m17:36:32.055286 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:36:51.130246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C65C7F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C66792C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C63511450>]}
+
+
+============================== 17:36:51.135582 | 44f585e3-bbe9-4659-b51d-5398f1cf0bf9 ==============================
+[0m17:36:51.135582 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:36:51.136363 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt clean', 'printer_width': '80', 'write_json': 'True'}
+[0m17:36:51.137039 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:36:51.138218 [debug] [MainThread]: Command `dbt clean` failed at 17:36:51.138076 after 0.16 seconds
+[0m17:36:51.138611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C66E45940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C66E94950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C66E11BF0>]}
+[0m17:36:51.139030 [debug] [MainThread]: Flushing usage events
+[0m17:36:52.259669 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:37:01.195476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBC7F1B230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBC8A36C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBC57C1450>]}
+
+
+============================== 17:37:01.202259 | 8eeb2c6c-2279-4d22-8013-e06f854ab704 ==============================
+[0m17:37:01.202259 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:37:01.203473 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'log_format': 'default', 'write_json': 'True', 'invocation_command': 'dbt debug', 'printer_width': '80', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\A S U S\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m17:37:01.228197 [info ] [MainThread]: dbt version: 1.10.15
+[0m17:37:01.228850 [info ] [MainThread]: python version: 3.13.5
+[0m17:37:01.229856 [info ] [MainThread]: python path: C:\ProgramData\anaconda3\python.exe
+[0m17:37:01.230374 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:37:01.371048 [info ] [MainThread]: Using profiles dir at C:\Users\A S U S\.dbt
+[0m17:37:01.371684 [info ] [MainThread]: Using profiles.yml file at C:\Users\A S U S\.dbt\profiles.yml
+[0m17:37:01.372363 [info ] [MainThread]: Using dbt_project.yml file at C:\Data\GitHub Local\banking-dwh-dbt-airflow-Christophorus-Arga-Putranto2\dbt_project.yml
+[0m17:37:01.372974 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:37:01.374115 [debug] [MainThread]: Command `dbt debug` failed at 17:37:01.373925 after 0.33 seconds
+[0m17:37:01.374572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBCA2FF100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBCA3067B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBC77C2250>]}
+[0m17:37:01.375043 [debug] [MainThread]: Flushing usage events
+[0m17:37:02.505034 [debug] [MainThread]: An error was encountered while trying to flush usage events
